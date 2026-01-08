@@ -295,3 +295,31 @@ header nav ul li a:hover {
   align-items: center;
 }
 
+
+.think-con{
+    background: #f7f6f2;
+    padding: 80px 40px;
+    border-radius: 12px;
+    text-align: center;
+}
+.think-con h3{
+    text-transform: capitalize;
+    color: #001931;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+
+}
+.think-con p{
+    color: #627382;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+.think-con p:first-of-type{
+    margin-bottom: 24px;
+}
+.think-con .btn{
+    margin-bottom: 16px;
+}
