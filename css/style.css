@@ -39,6 +39,7 @@ img {
   align-items: center;
   justify-content: center;
   gap: 0.25rem;
+  border: 1px solid #469165;
   transition: background 0.3s ease-in-out, transform 0.3s ease-in-out,
     box-shadow 0.3s ease, border 0.3s ease;
 }
@@ -76,8 +77,9 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
-.mt-120{
-    margin-top: 120px;
+.mt-120 {
+  margin-top: 120px;
+  
 }
 /* main start */
 header nav {
@@ -107,82 +109,142 @@ header nav ul li a:hover {
   color: #29583d;
 }
 
-.hero-section{
-    background: url(../assets/hero-bg.png)center center / cover no-repeat;
-    padding: 115px 0 180px;
+.hero-section {
+  background: url(../assets/hero-bg.png) center center / cover no-repeat;
+  background-attachment: fixed;
+  padding: 121px 0 180px;
 }
-.hero-section .container.flex{
-    justify-content: center;
-    align-items: center;
-    
-
+.hero-section .container.flex {
+  justify-content: center;
+  align-items: center;
 }
-.hero-con{
-    flex-direction: column;
-    align-items: center;
-    max-width: 770px;
-    gap: 16px;
-    justify-content: center;
-    text-align: center;
-
+.hero-con {
+  flex-direction: column;
+  align-items: center;
+  max-width: 770px;
+  gap: 16px;
+  justify-content: center;
+  text-align: center;
 }
-.hero-con h1{
-    font-size: 72px;
-    text-transform: capitalize;
-    color: #fff;
-    line-height: 84px;
-    
+.hero-con h1 {
+  font-size: 72px;
+  text-transform: capitalize;
+  color: #fff;
+  line-height: 84px;
 }
-.hero-con h1 span{
-    color: #30B868;
+.hero-con h1 span {
+  color: #30b868;
 }
-.hero-con p{
-    line-height: 38px;
-    font-size: 18px;
-    color: #fff;
-    font-weight: 400;
-    margin-bottom: 16px;
+.hero-con p {
+  line-height: 38px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 16px;
 }
 /* early access part */
-.early-access-box{
-    background: #fff;
-    gap: 6px;
-    align-items: center;
-    padding: 8px 12px;
-    border-radius: 50px;
-    width: max-content;
+.early-access-box {
+  background: #fff;
+  gap: 6px;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 50px;
+  width: max-content;
 }
-.early-access-box p{
-    line-height: 19px;
-    font-size: 16px;
-    font-weight: 500;
-    color: #469165;
-    margin-bottom: 0px;
+.early-access-box p {
+  line-height: 19px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #469165;
+  margin-bottom: 0px;
 }
-.early-access-box .box-flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;  
+.early-access-box .box-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.early-access-box .box1{
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    background: rgba(48, 184, 104,0.2);
+.early-access-box .box1 {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: rgba(48, 184, 104, 0.2);
 }
-.early-access-box .box2{
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background: rgba(48, 184, 104,0.4);
+.early-access-box .box2 {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(48, 184, 104, 0.4);
 }
-.early-access-box  .box3{
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: rgba(48, 184, 104,1);
+.early-access-box .box3 {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(48, 184, 104, 1);
 }
-.btn-container{
-    gap: 16px;
+.btn-container {
+  gap: 16px;
 }
 
+#next-sec {
+  padding: 60px 0 120px;
+  background: #fbfbfb;
+}
+#next-sec h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #001931;
+}
+#next-sec p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 44px;
+}
+#next-sec .flex {
+  justify-content: space-between;
+}
+#next-sec .flex .next-card {
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.06);
+  max-width: 322px;
+  padding: 69.5px 24px;
+  text-align: center;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  border: 1px solid #fff;
+  transition: border 0.3s ease-in-out;
+}
+#next-sec .flex .next-card h4 {
+  font-size: 24px;
+  color: #001931;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+#next-sec .flex .next-card p {
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  font-weight: 400;
+}
+#next-sec .flex .next-card:hover {
+  border: 1px solid #f95555;
+}
+
+.img-box {
+  border-radius: 50%;
+  background: #f95555;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+.img-box img {
+  max-width: 32px;
+}
