@@ -248,3 +248,50 @@ header nav ul li a:hover {
 .img-box img {
   max-width: 32px;
 }
+#solution-sec .flex {
+  gap: 60px;
+  align-items: center;
+}
+
+#solution-sec .flex .sol-image {
+  width: 600px;
+}
+#solution-sec .flex .sol-image img {
+  width: 100%;
+}
+#solution-sec .flex .sol-con {
+  max-width: 700px;
+}
+#solution-sec .flex .sol-con small {
+  color: #469165;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+#solution-sec .flex .sol-con h2 {
+  color: #001931;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-transform: capitalize;
+}
+#solution-sec .flex .sol-con p {
+  color: #676767;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+#solution-sec .flex .sol-con ul li {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 16px;
+  color: #001931;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
