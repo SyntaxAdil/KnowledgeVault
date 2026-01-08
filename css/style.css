@@ -179,7 +179,7 @@ header nav ul li a:hover {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: rgba(48, 184, 104, 1);
+  background:  rgba(48, 184, 104,1);
 }
 .btn-container {
   gap: 16px;
@@ -195,6 +195,7 @@ header nav ul li a:hover {
   margin-bottom: 16px;
   text-align: center;
   color: #001931;
+  text-transform: capitalize;
 }
 #next-sec p {
   font-size: 16px;
@@ -218,10 +219,11 @@ header nav ul li a:hover {
   gap: 16px;
   align-items: center;
   border: 1px solid #fff;
-  transition: border 0.3s ease-in-out;
+  transition: border 0.3s ease-in-out , transform 0.3s ease-in-out;
 }
 #next-sec .flex .next-card h4 {
   font-size: 24px;
+  text-transform: capitalize;
   color: #001931;
   font-weight: 600;
   margin-bottom: 0;
@@ -234,7 +236,8 @@ header nav ul li a:hover {
   font-weight: 400;
 }
 #next-sec .flex .next-card:hover {
-  border: 1px solid #f95555;
+  border: 1px solid #f955557a;
+  transform:translateY(-5px) scale(1.04);
 }
 
 .img-box {
@@ -263,6 +266,7 @@ header nav ul li a:hover {
   max-width: 700px;
 }
 #solution-sec .flex .sol-con small {
+    
   color: #469165;
   font-size: 16px;
   font-weight: 500;
@@ -276,9 +280,12 @@ header nav ul li a:hover {
   font-weight: 700;
   margin-bottom: 16px;
   text-transform: capitalize;
+  max-width: 600px;
 }
 #solution-sec .flex .sol-con p {
-  color: #676767;
+    max-width: 480px;
+    
+  color: #627382;
   line-height: 20px;
   font-size: 16px;
   font-weight: 400;
@@ -315,7 +322,7 @@ header nav ul li a:hover {
     font-size:16px;
     font-weight: 400;
     line-height: 20px;
-    text-transform: capitalize;
+    
 }
 .think-con p:first-of-type{
     margin-bottom: 24px;
