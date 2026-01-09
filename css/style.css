@@ -4,6 +4,9 @@
   outline: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body,
 .font-inter {
@@ -77,8 +80,17 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
+.pt-120 {
+  padding-top: 120px;
+}
 .mt-120 {
   margin-top: 120px;
+}
+.pt-60 {
+  padding-top: 60px;
+}
+.mb-60 {
+  margin-bottom: 60px;
 }
 /* main start */
 header nav {
@@ -318,6 +330,8 @@ header nav ul li a:hover {
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 .think-con p:first-of-type {
   margin-bottom: 24px;
